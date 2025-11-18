@@ -1,97 +1,73 @@
-# MealMate Planner
+# Welcome to your Lovable project
 
-A modern, mobile-first meal planning application built with Next.js, TypeScript, and Tailwind CSS.
+## Project info
 
-## Features
+**URL**: https://lovable.dev/projects/507dbd20-d658-466e-a145-877cf281d6f1
 
-- 🍳 Browse healthy recipes
-- ❤️ Save favorite recipes
-- 🛒 Create and manage grocery lists
-- 📱 Mobile-first responsive design
-- 🎨 Beautiful UI with shadcn/ui components
+## How can I edit this code?
 
-## Tech Stack
+There are several ways of editing your application.
 
-- **Framework**: Next.js 15 (App Router)
-- **Language**: TypeScript (strict mode)
-- **Styling**: Tailwind CSS
-- **UI Components**: shadcn/ui
-- **State Management**: React Hooks + LocalStorage
-- **Icons**: Lucide React
+**Use Lovable**
 
-## Getting Started
+Simply visit the [Lovable Project](https://lovable.dev/projects/507dbd20-d658-466e-a145-877cf281d6f1) and start prompting.
 
-### Prerequisites
+Changes made via Lovable will be committed automatically to this repo.
 
-- Node.js 18+ 
-- npm, yarn, or pnpm
+**Use your preferred IDE**
 
-### Installation
+If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
 
-1. Install dependencies:
-```bash
-npm install
-# or
-yarn install
-# or
-pnpm install
-```
+The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
-2. Run the development server:
-```bash
+Follow these steps:
+
+```sh
+# Step 1: Clone the repository using the project's Git URL.
+git clone <YOUR_GIT_URL>
+
+# Step 2: Navigate to the project directory.
+cd <YOUR_PROJECT_NAME>
+
+# Step 3: Install the necessary dependencies.
+npm i
+
+# Step 4: Start the development server with auto-reloading and an instant preview.
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
 ```
 
-3. Open [http://localhost:3000](http://localhost:3000) in your browser.
+**Edit a file directly in GitHub**
 
-## Project Structure
+- Navigate to the desired file(s).
+- Click the "Edit" button (pencil icon) at the top right of the file view.
+- Make your changes and commit the changes.
 
-```
-├── app/                    # Next.js App Router pages
-│   ├── layout.tsx          # Root layout with bottom navigation
-│   ├── page.tsx            # Home page
-│   ├── favorites/          # Favorites page
-│   ├── grocery-list/       # Grocery list page
-│   └── recipe/[id]/        # Recipe detail page
-├── components/
-│   └── ui/                 # Reusable UI components
-│       ├── bottom-nav.tsx  # Bottom navigation bar
-│       └── recipe-card.tsx # Recipe card component
-├── data/
-│   └── recipes.ts          # Mock recipe data
-├── hooks/                  # Custom React hooks
-│   ├── useFavorites.ts     # Favorites management
-│   └── useGroceryList.ts   # Grocery list management
-├── lib/
-│   └── utils.ts            # Utility functions
-└── public/                 # Static assets
-```
+**Use GitHub Codespaces**
 
-## Building for Production
+- Navigate to the main page of your repository.
+- Click on the "Code" button (green button) near the top right.
+- Select the "Codespaces" tab.
+- Click on "New codespace" to launch a new Codespace environment.
+- Edit files directly within the Codespace and commit and push your changes once you're done.
 
-```bash
-npm run build
-npm start
-```
+## What technologies are used for this project?
 
-## Key Features
+This project is built with:
 
-### TypeScript Strict Mode
-The project uses TypeScript strict mode for maximum type safety.
+- Vite
+- TypeScript
+- React
+- shadcn-ui
+- Tailwind CSS
 
-### Mobile-First Design
-All components are designed mobile-first with responsive breakpoints for larger screens.
+## How can I deploy this project?
 
-### Shared Layout
-The root layout includes a bottom navigation bar that persists across all pages.
+Simply open [Lovable](https://lovable.dev/projects/507dbd20-d658-466e-a145-877cf281d6f1) and click on Share -> Publish.
 
-### Component Organization
-All reusable components are organized in `/components/ui/` for easy maintenance.
+## Can I connect a custom domain to my Lovable project?
 
-## License
+Yes, you can!
 
-MIT
+To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+
+Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
